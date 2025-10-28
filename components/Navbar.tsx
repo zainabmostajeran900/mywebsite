@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
 const Navbar: React.FC = () => {
     const [darkMode] = useState(false);
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
 
 interface NavItemProps {
   href: string;
-  icon: JSX.Element;
+  icon: ReactNode;
   label: string;
 }
 
