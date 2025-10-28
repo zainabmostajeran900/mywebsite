@@ -7,10 +7,10 @@ import {
 } from "react-icons/ai";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Navbar: React.FC = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode] = useState(false);
   return (
     <nav
       className={`

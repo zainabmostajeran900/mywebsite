@@ -1,4 +1,3 @@
-import { HiH3 } from "react-icons/hi2";
 
 const Project: React.FC = () => {
   return (
