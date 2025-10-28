@@ -35,7 +35,7 @@ export default function Home() {
       <div className={`flex md:hidden`}>
         <Navbar />
       </div>
-      <div className=" w-full md:grid grid-cols-1 md:items-center md:justify-center mt-10 px-4 py-24 md:p-0  md:text-center md:w-full">
+      <div className="w-full md:grid grid-cols-1 md:items-center md:justify-center mt-2gi0 px-4 py-24 md:p-0  md:text-center md:w-full">
         <div className="flex flex-col items-center justify-center gap-y-6">
           <button onClick={() => setDarkMode(!darkMode)} className="absolute top-4 right-4 p-2 bg-teal-600 text-white rounded-full">
             {darkMode ? <BsSun size={20} /> : <BsMoon size={20} />}
