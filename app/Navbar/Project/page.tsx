@@ -1,7 +1,7 @@
 
 const Project: React.FC = () => {
   return (
-    <div className="min-h-screen mt-20 xl:mt-0 lg:mt-0 w-full flex flex-col items-center justify-center gap-10 py-24 px-12 md:gap-8 md:px-16 md:py-6">
+    <div className="min-h-screen mt-20 xl:mt-0 lg:mt-0 w-full flex flex-col items-center justify-center  py-24 px-12 md:gap-8 md:px-16 md:py-6">
       <p className="text-5xl text-center font-thin p-5">Projects</p>
         <div className="grid grid-cols-1 lg:grid-cols-2   xl:grid-cols-3 gap-5">
           <div className=" border-2  border-[#2CB897] text-left space-y-2  hover:scale-105 transition-all duration-200  cursor-pointer px-8 py-10 rounded-lg hover:bg-teal-50 ">

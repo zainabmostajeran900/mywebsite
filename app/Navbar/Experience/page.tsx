@@ -1,23 +1,23 @@
 const Experience: React.FC = () => {
   return (
-    <div className="flex mt-20 xl:mt-0 lg:mt-0 min-h-screen  w-full flex-col items-center justify-center gap-8 py-24 px-12 md:gap-8 md:px-16 md:py-6">
+    <div className="flex mt-20 xl:mt-0 lg:mt-0 min-h-screen  w-full flex-col items-center justify-center py-24 px-12 md:gap-8 md:px-16 md:py-6">
       <h1 className="text-center text-5xl font-light p-5">Experience</h1>
-      <div className="flex flex-wrap gap-0 md:flex-nowrap   md:gap-10">
+      <div className="flex flex-wrap gap-0 md:flex-nowrap md:gap-10">
         <div className="flex-1">
-          <div className="relative space-y-1   border-l-2 p-8 text-left">
+          <div className="relative space-y-1  border-l-2 p-8 text-left">
             <h3 className="text-xl font-semibold  md:text-2xl w-60">
               Junior Front-End Developer
             </h3>
-            <p className="font-light text-lg    text-gray-600">
+            <p className="font-light text-lg  text-gray-600">
               Junior Front-End Developer
             </p>
-            <p className="text-sm    text-gray-600">
+            <p className="text-sm  text-gray-600">
               Specialized in React.js and Next.js, I designed and implemented
               high-performance, user-friendly applications. Focused on creating
               dynamic, responsive UIs while collaborating with cross-functional
               teams to deliver projects on time.
             </p>
-            <span className="absolute -left-[11px]   top-10 h-5 w-5 rounded-full    bg-teal-500"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-teal-500"></span>
           </div>
           <div className="relative space-y-1   border-l-2 p-8 text-left">
             <h3 className="text-xl font-semibold   md:text-2xl w-60">

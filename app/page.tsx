@@ -35,8 +35,8 @@ export default function Home() {
       <div className={`flex md:hidden`}>
         <Navbar />
       </div>
-      <div className="md:grid grid-cols-1 md:items-center md:justify-center mt-10 p-40 md:p-0  md:text-center md:w-full">
-        <div className="flex flex-col items-center justify-center gap-y-2">
+      <div className=" w-full md:grid grid-cols-1 md:items-center md:justify-center mt-10 px-4 py-24 md:p-0  md:text-center md:w-full">
+        <div className="flex flex-col items-center justify-center gap-y-6">
           <button onClick={() => setDarkMode(!darkMode)} className="absolute top-4 right-4 p-2 bg-teal-600 text-white rounded-full">
             {darkMode ? <BsSun size={20} /> : <BsMoon size={20} />}
           </button>
@@ -48,7 +48,7 @@ export default function Home() {
             alt="profile"
           />
           <h1 className="text-center text-6xl text-teal-600">Zeinab Mostajeran</h1>
-          <h5 className="text-2xl text-teal-600">Web Developer</h5>
+          <h5 className="text-2xl text-teal-600 text-nowrap">Web Developer</h5>
           <p className="text-center text-slate-400 text-wrap">
             Junior Front-End Developer | Software Engineer | React.js & Next.js <br />
             Specialist | Creative, Organized, and Team-Oriented | Delivering <br />

@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   return (
     <nav
       className={`
-        fixed  w-full p-2 flex flex-row items-center justify-center ${darkMode ? "bg-white text-teal-600":"bg-teal-600 text-white"}
+        fixed z-10  w-full p-2 flex flex-row items-center justify-center ${darkMode ? "bg-white text-teal-600":"bg-teal-600 text-white"}
         md:sticky md:top-0 md:flex md:flex-col md:items-center md:justify-center md:min-h-screen md:p-0
       `}
     >
